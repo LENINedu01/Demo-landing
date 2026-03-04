@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Institución Educativa</title>
+
+<link rel="stylesheet" href="estilo.css">
+<script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <i data-lucide="graduation-cap"></i>
+            <span>INSTITUCIÓN</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#vivo">En Vivo</a>
+            <a href="#eventos">Eventos</a>
+            <a href="#fotografia">Fotografía</a>
+            <a href="#equipo">Equipo</a>
+            <a href="#info">Info</a>
+            <i data-lucide="search" class="search-icon"></i>
+        </div>
+
+        <div class="menu-toggle">
+            <i data-lucide="menu"></i>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1>Formando el Futuro</h1>
+        <p>Innovación, excelencia y tradición en un solo lugar.</p>
+    </div>
+</section>
+
+<!-- EN VIVO -->
+<section id="vivo" class="section reveal">
+    <h2><i data-lucide="video"></i> Transmisión en Vivo</h2>
+    <div class="video-box">
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80">
+    </div>
+</section>
+
+<!-- EVENTOS -->
+<section id="eventos" class="section reveal">
+    <h2><i data-lucide="calendar"></i> Próximos Eventos</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Feria Académica</h3>
+            <p>15 Octubre</p>
+        </div>
+        <div class="card">
+            <h3>Gala Cultural</h3>
+            <p>22 Octubre</p>
+        </div>
+        <div class="card">
+            <h3>Open Campus</h3>
+            <p>05 Noviembre</p>
+        </div>
+    </div>
+</section>
+
+<!-- FOTOGRAFÍA -->
+<section id="fotografia" class="section reveal dark">
+    <h2><i data-lucide="camera"></i> Galería</h2>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80">
+        <img src="https://images.unsplash.com/photo-1491845300462-81c4af8ff05a?auto=format&fit=crop&w=800&q=80">
+        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=800&q=80">
+    </div>
+</section>
+
+<!-- EQUIPO -->
+<section id="equipo" class="section reveal">
+    <h2><i data-lucide="users"></i> Nuestro Equipo</h2>
+    <p>Profesionales comprometidos con la excelencia educativa.</p>
+</section>
+
+<!-- INFO -->
+<footer id="info" class="footer">
+    <p>© 2026 Institución Educativa Superior</p>
+</footer>
+<!-- SEARCH OVERLAY -->
+<div id="search-overlay" class="search-overlay">
+    <div class="search-box">
+        <input type="text" placeholder="Buscar..." id="search-input">
+        <i data-lucide="x" id="close-search"></i>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
