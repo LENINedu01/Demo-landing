@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pixel Agency</title>
+
+<link rel="stylesheet" href="estilo.css">
+
+<!-- ICONOS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+
+<body>
+
+<!-- ===================================================== -->
+<!-- NAVBAR -->
+<!-- ===================================================== -->
+
+<header class="navbar">
+
+<div class="logo">
+Pixel Agency
+</div>
+
+<nav>
+
+<ul class="menu">
+
+<li onclick="mostrarSeccion('home')">Home</li>
+<li onclick="mostrarSeccion('servicios')">Servicios</li>
+<li onclick="mostrarSeccion('proyectos')">Proyectos Destacados</li>
+<li onclick="mostrarSeccion('resultados')">Resultados</li>
+<li onclick="mostrarSeccion('marcas')">Marcas</li>
+<li onclick="mostrarSeccion('contacto')">Contacto</li>
+<li class="search-icon" onclick="toggleSearch()">
+<i class="fa-solid fa-magnifying-glass"></i>
+</li>
+
+</ul>
+
+</nav>
+
+<input type="text" id="searchBar" placeholder="Buscar...">
+
+</header>
+
+
+<!-- ===================================================== -->
+<!-- HOME -->
+<!-- ===================================================== -->
+
+<section id="home" class="seccion activa hero">
+
+<div class="hero-content">
+
+<h1>Pixel Agency</h1>
+
+<p>
+Producción audiovisual, eventos y fotografía profesional
+para marcas modernas.
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- ===================================================== -->
+<!-- INFO -->
+<!-- ===================================================== -->
+
+<section id="info" class="seccion info">
+
+<h2>Sobre Nosotros</h2>
+
+<div class="info-descripcion">
+
+<p>
+Somos una agencia de marketing estratégico especializada en posicionamiento de marcas,
+producción de imagen y cobertura de eventos de alto impacto.
+</p>
+
+<p>
+No trabajamos para “publicar contenido”.
+Diseñamos estrategias que construyen percepción, liderazgo y resultados reales.
+</p>
+
+<p>
+Nuestro enfoque combina análisis, creatividad y ejecución premium
+para elevar marcas que buscan destacar, no competir por precio.
+</p>
+
+</div>
+
+<div class="info-container">
+
+<div class="card">
+<img src="https://picsum.photos/400/250?1">
+<h3>Producción Profesional</h3>
+<p>Servicios audiovisuales para marcas y eventos.</p>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/250?2">
+<h3>Eventos</h3>
+<p>Producción y cobertura completa de eventos.</p>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/250?3">
+<h3>Streaming</h3>
+<p>Transmisión en vivo multicámara profesional.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ===================================================== -->
+<!-- SERVICIOS -->
+<!-- ===================================================== -->
+
+<section id="servicios" class="seccion servicios">
+
+<h2 class="titulo-seccion">Servicios</h2>
+
+<div class="servicios-container">
+
+<!-- ================================= -->
+<!-- SERVICIO 1 -->
+<!-- ================================= -->
+
+<div class="servicio-item servicio-slide"></div>
+
+<div class="servicio-texto">
+
+<h3>Marketing & Posicionamiento de Marca</h3>
+
+<p class="subtitulo">
+Estrategias de marketing para construir marcas líderes
+</p>
+
+<p>
+Ayuda a construir y fortalecer la marca:
+</p>
+
+<ul>
+<li>Estrategia de marca</li>
+<li>Gestión de redes sociales</li>
+<li>Creación de contenido estratégico</li>
+<li>Desarrollo de páginas web</li>
+<li>Diseño de identidad visual</li>
+<li>Herramientas digitales (catálogos, catálogos de exportación, brochures y documentos de presentación)</li>
+<li>Campañas digitales</li>
+<li>Gestión de auspicios desde el enfoque de marca</li>
+</ul>
+
+</div>
+
+<div class="servicio-imagen">
+<img src="https://picsum.photos/800/450?marketing" alt="Marketing y posicionamiento">
+</div>
+
+</div>
+
+
+<!-- ================================= -->
+<!-- SERVICIO 2 -->
+<!-- ================================= -->
+
+<div class="servicio-item reverse servicio-slide"></div>
+
+<div class="servicio-texto">
+
+<h3>Producción & Imagen</h3>
+
+<p class="subtitulo">
+Hacesmos de tu marca una experiencia visual premium
+</p>
+
+<p>
+Percepción visual:
+</p>
+
+<ul>
+<li>Fotografía profesional</li>
+<li>Producción audiovisual</li>
+<li>Transmisiones en vivo</li>
+<li>Cobertura de eventos</li>
+<li>Invitaciones virtuales</li>
+<li>Producción para certámenes</li>
+</ul>
+
+</div>
+
+<div class="servicio-imagen">
+<img src="https://picsum.photos/800/450?video" alt="Producción audiovisual">
+</div>
+
+</div>
+
+
+<!-- ================================= -->
+<!-- SERVICIO 3 -->
+<!-- ================================= -->
+
+<div class="servicio-item servicio-slide"></div>
+
+<div class="servicio-texto">
+
+<h3>Organización & Gestión de Eventos</h3>
+
+<p class="subtitulo">
+dejalo en nuestras manos 
+</p>
+
+<p>
+Se ofrece:
+</p>
+
+<ul>
+<li>Planificación logística</li>
+<li>Cotizaciones de presupuesto</li>
+<li>Gestión y coordinación de auspiciadores</li>
+<li>Road Manager</li>
+</ul>
+
+</div>
+
+<div class="servicio-imagen">
+<img src="https://picsum.photos/800/450?event" alt="Gestión de eventos">
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ===================================================== -->
+<!-- PROYECTOS -->
+<!-- ===================================================== -->
+
+<section id="proyectos" class="seccion ">
+
+<h2>Proyectos</h2>
+
+<p>
+Producción integral para eventos corporativos,
+shows y experiencias audiovisuales.
+</p>
+
+</section>
+
+
+
+<!-- ===================================================== -->
+<!-- RESULTADO -->
+<!-- ===================================================== -->
+
+<section id="resultados" class="seccion">
+
+<h2>Resultados</h2>
+
+<p>
+Fotografía profesional para marcas,
+eventos y contenido digital.
+</p>
+
+</section>
+
+
+
+<!-- ===================================================== -->
+<!-- MARCAS -->
+<!-- ===================================================== -->
+
+<section id="marcas" class="seccion">
+
+<h2>Marcas</h2>
+
+<p>
+Profesionales en producción audiovisual,
+diseño y marketing visual.
+</p>
+
+</section>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+<!-- ===================================================== -->
+<!-- FOOTER -->
+<!-- ===================================================== -->
+
+<footer class="footer">
+
+<div class="footer-container">
+
+<p class="copyright">
+© 2026 Pixel Agency. Todos los derechos reservados.
+</p>
+
+<a href="poner link" class="whatsapp-btn" target="_blank">
+WhatsApp
+</a>
+
+</div>
+
+</footer>
